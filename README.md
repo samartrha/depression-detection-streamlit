@@ -15,6 +15,12 @@ This is a simple web-based application built with **Streamlit** and **Machine Le
 - Joblib
 - Git & GitHub
 
+## 📊 Dataset
+
+The model was trained using a dataset from Kaggle:  
+**[Student Depression - Text Data](https://www.kaggle.com/datasets/nidhiy07/student-depression-text)**  
+This dataset contains textual responses from students, labeled as "depressed" or "not depressed", which was used to train the sentiment classification model using TF-IDF vectorization and machine learning techniques.
+
 ## 🚀 How to Run Locally
 
 1. Clone the repo:
@@ -28,6 +34,15 @@ This is a simple web-based application built with **Streamlit** and **Machine Le
    streamlit run streamlit_app.py
 
 
+🗂️ Repository Structure
+📁 depression-detection-streamlit/
+├── app.py                 # Model training (optional)
+├── streamlit_app.py       # Main Streamlit frontend app
+├── vectorizer.pkl         # Saved TfidfVectorizer
+├── depression_model.pkl   # Trained model
+└── README.md              # Project documentation
+
+
 ## 📁 Files Included
 - `streamlit_app.py` - Streamlit frontend script
 - `app.py` - Testing script
@@ -38,10 +53,20 @@ This is a simple web-based application built with **Streamlit** and **Machine Le
 You can deploy this app easily using [Streamlit Cloud](https://streamlit.io/cloud).
 
 ## 🧑‍💻 Author
-- **Samartha Rama**  
+- **Samartha Rama**
+- 
+---
 📧 samartharama7@gmail.com  
 🌐 [GitHub Profile](https://github.com/samartrha)
 
 ## ⚠️ Disclaimer
 This tool is only for educational/demonstration purposes. It is **not a substitute** for professional mental health advice.
+
+Let me know if you'd like me to add:
+- 📸 Screenshot of the app  
+- 🧪 Model accuracy / performance section  
+- 📚 References or citation for the dataset
+
+Happy coding!
+
 
