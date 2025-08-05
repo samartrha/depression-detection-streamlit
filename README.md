@@ -34,15 +34,6 @@ This dataset contains textual responses from students, labeled as "depressed" or
    streamlit run streamlit_app.py
 
 
-🗂️ Repository Structure
-📁 depression-detection-streamlit/
-├── app.py                 # Model training (optional)
-├── streamlit_app.py       # Main Streamlit frontend app
-├── vectorizer.pkl         # Saved TfidfVectorizer
-├── depression_model.pkl   # Trained model
-└── README.md              # Project documentation
-
-
 ## 📁 Files Included
 - `streamlit_app.py` - Streamlit frontend script
 - `app.py` - Testing script
@@ -53,9 +44,8 @@ This dataset contains textual responses from students, labeled as "depressed" or
 You can deploy this app easily using [Streamlit Cloud](https://streamlit.io/cloud).
 
 ## 🧑‍💻 Author
-- **Samartha Rama**
-- 
----
+- **A S Samartha Rama**
+  
 📧 samartharama7@gmail.com  
 🌐 [GitHub Profile](https://github.com/samartrha)
 
